@@ -1,0 +1,32 @@
+:root{
+    --card-color-1: #B3E03F;
+    --card-color-2: #7BD553;
+    --card-color-3: #3AD5A0;
+    --card-color-4: #45D0DA;
+    --card-color-5: #4484c1;
+
+    --card-color: var(--card-color-1);
+}
+
+.content{
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.container {
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
