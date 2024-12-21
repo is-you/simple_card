@@ -2,7 +2,7 @@ function createSlider() {
     var swiper = new Swiper(".swiper", {
         slidesPerView: "auto",
         spaceBetween: 20,
-        centeredSlides: true,
+        centeredSlides: checkMobile(),
         pagination: {
             clickable: true,
         },
@@ -12,5 +12,6 @@ function createSlider() {
 createSlider();
 
 function checkMobile(){
-
+    return document.firstElementChild.clientWidth < 758
 }
+
