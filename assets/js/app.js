@@ -16,3 +16,5 @@ function checkMobile(){
     return document.firstElementChild.clientWidth < 758
 }
 
+console.log(document.firstElementChild.clientWidth < 758);
+
