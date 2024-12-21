@@ -4,6 +4,7 @@ function createSlider() {
         spaceBetween: 20,
         centeredSlides: checkMobile(),
         pagination: {
+            el: ".swiper-pagination",
             clickable: true,
         },
     });
