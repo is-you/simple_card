@@ -25,6 +25,7 @@
 
 .header__menu {
     display: flex;
+    justify-content: flex-end;
     column-gap: 54px;
 }
 
