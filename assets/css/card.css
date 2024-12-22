@@ -91,9 +91,7 @@
     background-color:  var(--card-color);
 }
 
-.swiper-pagination {
-   top: calc(50vh + 250px) !important;
-}
+
 
 /*.swiper{*/
 /*    overflow: visible !important;*/

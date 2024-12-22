@@ -26,9 +26,22 @@
 }
 
 .container {
-    width: 1600px;
+    width: 1350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.swiper{
+    height: 550px;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.swiper-pagination {
+    bottom: 0 !important;
+}
+
+.swiper-wrapper{
+    height: auto !important;
+}
